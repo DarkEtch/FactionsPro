@@ -1,0 +1,14 @@
+name: FactionsPro
+author: DarkEtch
+description: A Better version of FactionsPro plugin
+version: 1.7.9
+main: FactionsPro\FactionMain
+api: [1.12.0]
+commands:
+  f:
+    description: use /f help for all parameters
+    permission: f.command
+permissions:
+  f.command:
+    default: true
+    description: "Allow use of all faction commands"
